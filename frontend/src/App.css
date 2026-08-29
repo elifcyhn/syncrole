@@ -13,3 +13,10 @@
   color: #64748b;
   font-size: clamp(1rem, 3vw, 1.25rem);
 }
+
+.landing .connection-status {
+  margin-top: 1.5rem;
+  color: #334155;
+  font-size: 1rem;
+  font-weight: 600;
+}
