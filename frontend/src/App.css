@@ -20,3 +20,58 @@
   font-size: 1rem;
   font-weight: 600;
 }
+
+.upload-panel {
+  display: grid;
+  gap: 1rem;
+  width: min(100%, 28rem);
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.upload-panel h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.upload-panel label {
+  color: #334155;
+  font-weight: 600;
+}
+
+.upload-panel input,
+.upload-panel button {
+  font: inherit;
+}
+
+.upload-panel button {
+  padding: 0.75rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background: #2563eb;
+  cursor: pointer;
+}
+
+.upload-panel button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.landing .selected-file,
+.landing .upload-message {
+  font-size: 0.95rem;
+}
+
+.landing .upload-message.success {
+  color: #15803d;
+}
+
+.landing .upload-message.error {
+  color: #b91c1c;
+}
